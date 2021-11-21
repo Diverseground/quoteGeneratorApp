@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #864199;
+  background-image: linear-gradient(
+      to top right,
+      #845ec280,
+      #d65db180,
+      #ff6f9180,
+      #ff967180,
+      #ffc75f9f,
+      #f9f9719f
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='58' viewBox='0 0 42 58'%3E%3Cg fill='%23000000' fill-opacity='0.08'%3E%3Cpath fill-rule='evenodd' d='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  width: auto;
+  max-width: 600px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2),
+    2px 7px 5px rgba(130, 80, 140, 0.3), 0px -4px 10px rgba(158, 76, 125, 0.15),
+    2px 2px 4px rgba(215, 153, 190, 0.55),
+    16px 22px 11px rgba(215, 153, 190, 0.15),
+    -10px 16px 11px rgba(130, 80, 140, 0.15);
+}
+
+.quote-text {
+  font-size: 2.75rem;
+  color: #fffaf0;
+  text-shadow: 2px 7px 5px rgba(130, 80, 140, 0.3),
+    0px -4px 10px rgba(158, 76, 125, 0.25),
+    2px 2px 4px rgba(215, 153, 190, 0.65),
+    16px 22px 11px rgba(215, 153, 190, 0.25),
+    -10px 16px 11px rgba(130, 80, 140, 0.25);
+}
+.quote-author {
+  text-shadow: 2px 7px 5px rgba(130, 80, 140, 0.3),
+    0px -4px 10px rgba(158, 76, 125, 0.15),
+    2px 2px 4px rgba(215, 153, 190, 0.55),
+    16px 22px 11px rgba(215, 153, 190, 0.15),
+    -10px 16px 11px rgba(130, 80, 140, 0.15);
+}
+
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 5rem;
+  color: #864199;
+}
+
+.quote-author {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #864199;
+}
+
+.button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background-color: #864199;
+  color: #ffffff;
+  height: 2.5rem;
+  padding: 0.5rem 1.8rem;
+
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.32s ease-in-out;
+  outline: none;
+  box-shadow: 0 0.3rem rgba(80, 80, 80, 0.65);
+}
+button:hover {
+  background-color: #ffffff;
+  color: rgb(134, 65, 153);
+  box-shadow: 0 0.3rem rgba(130, 80, 140, 0.65);
+}
+button:active {
+  transform: translateY(0.3rem);
+  box-shadow: 0 0.1rem rgba(215, 153, 190, 0.65);
+}
+
+.twitter-button:hover {
+  background-color: #ffff;
+  color: #1da1f2;
+}
+.tumblr-button:hover {
+  background-color: #2c4762;
+  color: #ffff;
+}
+.fa-quote-right {
+  font-size: 10rem;
+  color: #ffaffb2f;
+  text-shadow: -8px -8px 12px rgba(255, 255, 255, 0.4),
+    8px 8px 12px rgba(0, 0, 0, 0.08);
+  caret-color: #262626;
+  outline: none;
+}
+
+.loader {
+  -webkit-animation: spin 17s linear infinite;
+  -moz-animation: spin 17s linear infinite;
+  animation: spin 17s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+
+  .quote-text {
+    font-size: 2.5rem;
+  }
+}
